@@ -1,4 +1,4 @@
 # Borsch-Bot
-Twitter-Bot for the famous Borsch-Fes.
+Twitter-Bot for the famous Borsch-Fest.
 Written with Tweepy in Python.
-Hosted on a Raspberry Pi and Python-Scripts managed with Cron. 
+Hosted on a Raspberry Pi while Python-Scripts are managed with Cron. 
