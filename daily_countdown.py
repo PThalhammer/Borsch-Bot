@@ -6,8 +6,8 @@ import datetime
 import random
 
 
-import borschkeys
-import testkeys
+#from borschkeys import *
+from testkeys import *
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
@@ -26,13 +26,13 @@ user = api.me()
 tw_nu = random.randint(1,6)
 
 if   (tw_nu == 1):
-    tweet = "Wow! Nur noch " + str(days.days) + " Tage bis zum Borschtsch Fest!!!"
+    tweet = "Wow! Nur noch " + str(days.days) + " Tage bis zum Borsch Fest!!!"
 elif (tw_nu == 2):
-    tweet = "Hey, In " + str(days.days) + " Tagen ist Borschtsch Fest!"
+    tweet = "Hey, In " + str(days.days) + " Tagen ist Borsch Fest!"
 elif (tw_nu == 3):
-    tweet = "Schon gehört?! In " + str(days.days) + " Tagen ist Borschtsch Fest!!!"
+    tweet = "Schon gehört?! In " + str(days.days) + " Tagen ist Borsch Fest!!!"
 elif (tw_nu == 4):
-    tweet = "Borschtsch Fest ist in "+str(days.days) + " Tagen!"
+    tweet = "Borsch Fest ist in "+str(days.days) + " Tagen!"
 elif (tw_nu == 5):
     tweet = "Man mag es kaum glauben, aber Борщ-фестиваль ist in " + str(days.days) + " Tagen!!"
 else:
