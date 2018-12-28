@@ -1,3 +1,5 @@
-5 14 * * * python3 /home/Borsch-Bot/daily_countdown.py
-5 16 * * * python3 /home/Borsch-Bot/daily_borsch_pic.py
-20 * * * * python3 /home/Borsch-Bot/reply_mentions.py
+
+5 14 * * * python3 /home/Borsch-Bot/scripts/daily_countdown.py
+0 0 * * 1  sleep $(( RANDOM \% 10800))d; python3 /home/Borsch-Bot/scripts/daily_borsch_pic.py
+20 * * * * python3 /home/Borsch-Bot/scripts/reply_mentions.py
+10 16 * * * python3 /home/Borsch-Bot/scripts/tweet_proverbs.py

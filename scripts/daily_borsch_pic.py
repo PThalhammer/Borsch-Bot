@@ -27,7 +27,7 @@ user = api.me()
 
 tw_nu = random.randint(1,6)
 
-msg="Borsch Bild des Tages: "
+msg="Random Borsch Bild: "
 
 num=random.randint(1,90)
 
