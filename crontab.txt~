@@ -1,2 +1,2 @@
-0 14 * * * python3 /home//Borsch-Bot/daily_countdown.py
-0 16 * * * python3 /home//Borsch-Bot/daily_borsch_pic.py
+0 14 * * * python3 /home/Borsch-Bot/daily_countdown.py
+0 16 * * * python3 /home/Borsch-Bot/daily_borsch_pic.py

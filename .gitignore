@@ -1,7 +1,10 @@
-#Keys
+# Keys
 
 borschkeys.py
 testkeys.py
+
+# Editor backups 
+*~
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
