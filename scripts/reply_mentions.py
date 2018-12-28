@@ -18,7 +18,7 @@ api = tweepy.API(auth)
 
 mentions = []
 
-with open('mentions.txt') as my_file:
+with open('../etc/mentions.txt') as my_file:
             mentions = my_file.read().split(',')
 #	    mentions = my_file.readlines()
 
@@ -37,7 +37,7 @@ for tweet in new_mentions:
 
 print(mentions)
             
-with open('mentions.txt', 'w') as f:
+with open('../etc/mentions.txt', 'w') as f:
     for item in mentions:
         f.write(str(item)+",")
 	

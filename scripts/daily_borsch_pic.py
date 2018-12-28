@@ -29,9 +29,9 @@ tw_nu = random.randint(1,6)
 
 msg="Borsch Bild des Tages: "
 
-num=random.randint(1,250)
+num=random.randint(1,90)
 
-img="./Borsch_Pics/"+str(num)+".jpg"
+img="../Borsch_Pics/"+str(num)+".jpg"
 
 #try:
 api.update_with_media(img, msg)
