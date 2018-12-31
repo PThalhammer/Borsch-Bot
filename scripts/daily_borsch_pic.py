@@ -31,7 +31,7 @@ msg="Random Borsch Bild: "
 
 num=random.randint(1,90)
 
-img="../Borsch_Pics/"+str(num)+".jpg"
+img="/home/pi/Borsch-Bot/Borsch_Pics/"+str(num)+".jpg"
 
 #try:
 api.update_with_media(img, msg)
