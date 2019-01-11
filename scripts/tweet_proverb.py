@@ -6,8 +6,8 @@ import datetime
 import random
 from math import * 
 
-#from borschkeys import *
-from testkeys import *
+from borschkeys import *
+#from testkeys import *
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)

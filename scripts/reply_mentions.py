@@ -7,8 +7,8 @@ import time
 import random
 
 
-#from borschkeys import *
-from testkeys import *
+from borschkeys import *
+#from testkeys import *
 
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -33,7 +33,7 @@ for tweet in new_mentions:
             print(tweet.id)
             
             msg = "@"+str(tweet.author.screen_name)+" Привет! Leider gibt's noch nichts neues zum Borsch Fest. Falls du's jedoch nicht abwarten kannst, hier ein Rezept zum nachkochen https://tinyurl.com/y8l3k346 "
-            api.update_status(msg,in_reply_to_status_id=tweet.id)
+ #           api.update_status(msg,in_reply_to_status_id=tweet.id)
             mentions.append(str(tweet.id))
 
 print(mentions)
