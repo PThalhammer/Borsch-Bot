@@ -23,7 +23,7 @@ proverbs = [x.strip() for x in proverbs]
 
 n  = random.randint(1,250)
 
-tweet = "Sprichwort des Tages: \n"+proverbs[n]
+tweet = "Пословица дня: \n"+proverbs[n]
 
 try:
    api.update_status(tweet)
