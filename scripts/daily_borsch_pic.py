@@ -7,8 +7,8 @@ import random
 
 
 
-#from borschkeys import *
-from testkeys import *
+from borschkeys import *
+#from testkeys import *
 
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
